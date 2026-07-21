@@ -52,13 +52,7 @@ p {
 
 
 
-.container {
 
-    display: flex;
-
-    justify-content: center;
-
-}
 
 
 
@@ -78,6 +72,13 @@ p {
 
     text-align: center;
 
+}
+
+/* Allow boxes to wrap and be responsive */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -149,7 +150,8 @@ img {
     margin: 20px auto;
 
     border: 5px solid #001f3f;
-
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -168,4 +170,31 @@ footer {
 
     margin-top: 40px;
 
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 800px) {
+    h1 { font-size: 1.6rem; }
+    .box, .project-section, .about-section, .art-section {
+        margin: 16px;
+        padding: 16px;
+        width: calc(100% - 32px);
+        max-width: 760px;
+    }
+    .container { flex-direction: column; align-items: center; }
+    img { border-width: 3px; }
+    footer { padding: 16px; }
+}
+
+@media (max-width: 420px) {
+    h1 { font-size: 1.25rem; }
+    .tagline { font-size: 18px; }
+    .box { width: 100%; padding: 12px; }
+    .project-section, .about-section, .art-section { padding: 12px; margin: 12px; }
+}
+
+/* Use border-box for predictable sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
 }

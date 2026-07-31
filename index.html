@@ -2,213 +2,90 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
     <title>LWS Creations</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        .box1 {
-            background-color: #fff;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .box2 {
-            background-color: #fff;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .wrap {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-        }
-
-        .a {
-            grid-area: right;
-        }
-
-        .b {
-            grid-area: left;
-        }
-
-        ==$0
-    </style>
-    </div>
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-
-
 <body>
-
-
-
-    <main>
-
-
-        <div class="container" border="1px solid black" padding="20px" margin="24px">
-
-
-            <div class="box" id="box-one">
-
-
-                <h1>
-                    Collections of My Projects!
-                </h1>
-
-
-                <p class="tagline">
-                    Welcome to LWS Creations!
-                </p>
-
-
-                <p>
-                    My First Coloring Book is one of my favorite creative
-                    projects. This coloring book features a variety of fun and engaging designs
-                    that are perfect for kids and adults alike. From cute animals to intricate patterns,
-                </p>
-
-
-            </div>
-
-
+    <div class="page">
+        <div class="header">
+            <header class="nav">
+                <h1>LWS Creations</h1>
+                <nav class="top-nav">
+                    <a href="#home" class="nav-box">Home</a>
+                    <a href="#about" class="nav-box">About</a>
+                    <a href="#content" class="nav-box">Content</a>
+                </nav>
+            </header>
         </div>
 
-
-
-
-       
-            <section class="project-section">
-
-
-                <h2 id="projects">
-                    My Projects
-                </h2>
-
-
-                <p>
-                    My First Coloring Book
-                </p>
-
-
-                <p>
-                    My First Comic Book
-                </p>
-
-
-                <h3>
-                    Project List
-                </h3>
-
-
-                <ul>
-
-                    <li>
-                        My First Coloring Book
-                    </li>
-
-
-                    <li>
-                        My First Comic Book
-                    </li>
-
-
-                    <li>
-                        Future Animation Project
-                    </li>
-
-
-                    <li>
-                        Future Graphic Design Project
-                    </li>
-
-
-                </ul>
-
-
-            </section>
-
-
-        
-
-
-
-
-        <section class="about-section">
-
-
-            <h2>
-                About LWS Creations
-            </h2>
-
-
-            <p>
-                LWS Creations is my personal creative brand where I showcase
-                my coloring books, comic books, artwork, and future projects.
-                My goal is to create fun and inspiring content for people
-                of all ages.
-            </p>
-
-
-        </section>
-
-
-
-
-
-
-
-        <section class="art-section">
-
-
-            <h2>
-                Black Super Heroes who inspired me to get into tech and to help change the world for the better. I want
-                to be a part of that change and to help others in the process!.
-            </h2>
-
-
-            <img src="assets/images/black_super_heroes.jpg"
-                alt="Three Black superheroes stand confidently in a city scene with glowing energy behind them, wearing bold costumes and projecting strength and determination">
-
-
-        </section>
-
-
-
-    </main>
-
-
-
-
-
-
-    <footer>
-
-
-        <p>
-            &copy; 2026 LWS Creations | Created by Lemar Woods
-        </p>
-
-
-    </footer>
-
-
-
-
+        <main>
+            <div class="content">
+                <div class="wrap">
+                    <section class="container a" id="home">
+                        <div class="flexbox" id="box-one">
+                            <h2>Collections of My Projects!</h2>
+                            <p class="tagline">Welcome to LWS Creations!</p>
+                            <p>
+                                My First Coloring Book is one of my favorite creative projects.
+                                This coloring book features a variety of fun and engaging designs
+                                that are perfect for kids and adults alike. From cute animals to intricate patterns,
+                                this project reflects my love for creativity and storytelling.
+                            </p>
+                        </div>
+                    </section>
+
+                    <div class="content-grid b">
+                        <section class="project-section card" id="content">
+                            <h2 id="projects">My Projects</h2>
+                            <p>My First Coloring Book</p>
+                            <p>My First Comic Book</p>
+                            <h3>Project List</h3>
+                            <ul>
+                                <li>My First Coloring Book</li>
+                                <img src="assets/images\Lemars_Life_Story_Cover_Page.png"
+                                    alt="Cover Page of Lemar's Life Story">
+                                <li>My First Comic Book</li>
+                                <li>Future Animation Project</li>
+                                <li>Future Graphic Design Project</li>
+                            </ul>
+                        </section>
+
+                        <section class="about-section card" id="about">
+                            <h2>About LWS Creations</h2>
+                            <p>
+                                LWS Creations is my personal creative brand where I showcase
+                                my coloring books, comic books, artwork, and future projects.
+                                My goal is to create fun and inspiring content for people
+                                of all ages.
+                            </p>
+                        </section>
+
+                        <section class="art-section card">
+                            <h2>
+                                Black Super Heroes who inspired me to get into tech and to help change the world for the
+                                better.
+                                I want to be a part of that change and to help others in the process!
+                            </h2>
+                            <img src="assets/images/black_super_heroes.jpg"
+                                alt="Three Black superheroes stand confidently in a city scene with glowing energy behind them, wearing bold costumes and projecting strength and determination">
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="footer">
+            <footer>
+                <p>&copy; 2026 LWS Creations | Created by Lemar Woods</p>
+            </footer>
+        </div>
+    </div>
 </body>
+
+</html>

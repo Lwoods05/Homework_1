@@ -39,6 +39,8 @@ a {
 
 .page {
     min-height: 100vh;
+    width: 100%;
+    max-width: 100%;
 }
 
 .site-header {
@@ -168,10 +170,26 @@ main {
 
 .project-list {
     padding-left: 1.2rem;
+    margin: 0;
 }
 
 .project-list li {
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.75rem;
+}
+
+.project-list .project-image-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    margin: 0.75rem 0 1rem;
+    border: 3px solid var(--navy);
+    border-radius: 14px;
 }
 
 .card:nth-child(2) {

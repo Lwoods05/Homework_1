@@ -17,9 +17,12 @@
         <header class="site-header">
             <h1>LWS Creations</h1>
             <nav class="top-nav" aria-label="Main navigation">
-                <button type="button" class="nav-box" onclick="window.location.href='index.html'">Home</button>
-                <button type="button" class="nav-box" onclick="window.location.href='projects.html'">Projects</button>
-                <button type="button" class="nav-box" onclick="window.location.href='about.html'">About</button>
+                <button type="button" class="nav-box" onclick="window.location.href='index.html'"
+                    aria-label="Go to home page">Home</button>
+                <button type="button" class="nav-box" onclick="window.location.href='projects.html'"
+                    aria-label="Go to projects page">Projects</button>
+                <button type="button" class="nav-box" onclick="window.location.href='about.html'"
+                    aria-label="Go to about page">About</button>
             </nav>
         </header>
 
@@ -89,25 +92,27 @@
                             <div class="about-form-group">
                                 <label class="about-label" for="name">Name</label>
                                 <input type="text" id="name" name="name" placeholder="Enter your name"
-                                    class="about-input">
+                                    class="about-input" aria-label="Your name">
                             </div>
                             <div class="about-form-group">
                                 <label class="about-label" for="email">Email</label>
                                 <input type="email" id="email" name="email" placeholder="Enter your email"
-                                    class="about-input">
+                                    class="about-input" aria-label="Your email">
                             </div>
                             <div class="about-form-group">
                                 <label class="about-label" for="interest">What are you interested in?</label>
                                 <input type="text" id="interest" name="interest" placeholder="Art, comics, tech..."
-                                    class="about-input">
+                                    class="about-input" aria-label="Your interests">
                             </div>
                             <p>Take a look at my creative work and inspiration.</p>
                             <div class="about-actions">
-                                <button class="btn" type="button" onclick="window.location.href='projects.html'">View
+                                <button class="btn" type="button" onclick="window.location.href='projects.html'"
+                                    aria-label="View projects page">View
                                     Projects</button>
                                 <button class="btn btn--secondary" type="button"
-                                    onclick="window.location.href='inspiration.html'">See Inspiration</button>
-                                    
+                                    onclick="window.location.href='inspiration.html'"
+                                    aria-label="See inspiration page">See Inspiration</button>
+
                             </div>
                         </fieldset>
                     </form>

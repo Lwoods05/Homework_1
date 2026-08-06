@@ -17,15 +17,11 @@
         <header class="site-header">
             <h1>LWS Creations</h1>
             <nav class="top-nav" aria-label="Main navigation">
-                <button type="button" class="nav-box" onclick="window.location.href='index.html'"
-                    aria-label="Go to home page">Home</button>
-                <button type="button" class="nav-box" onclick="window.location.href='projects.html'"
-                    aria-label="Go to projects page">Projects</button>
-                <button type="button" class="nav-box" onclick="window.location.href='about.html'"
-                    aria-label="Go to about page">About</button>
+                <a href="index.html" class="nav-box">Home</a>
+                <a href="projects.html" class="nav-box">Projects</a>
+                <a href="about.html" class="nav-box">About</a>
             </nav>
         </header>
-
         <main>
             <section class="about-hero" aria-label="About me section">
                 <div class="about-hero__content">
@@ -55,9 +51,12 @@
                 <article class="about-card">
                     <h3>About Me</h3>
                     <p>
-                        My name is Lemar Woods, I am a full time student, I'm 35 years old and I am currently studying to
+                        My name is Lemar Woods, I am a full time student, I'm 35 years old and I am currently studying
+                        to
                         get my assoicates degree in Information technolo
-                        gy.I am currently complete schooling online at campuswire.com and I am a young creator who loves
+                        gy.Im also born and raised in Chicago, Illinois and I have a huge love for my city that helped
+                        make me into the man I am today.I can be stubborn at times but also focus and hardworking.I am
+                        currently complete schooling online at campuswire.com and I am a young creator who loves
                         building projects that combine art, storytelling, and technology. I enjoy creating coloring
                         books, comic ideas, and future design projects that reflect my creativity.
                     </p>
@@ -88,7 +87,8 @@
                     <form class="about-form" action="#" method="post" aria-labelledby="connect-title">
                         <fieldset class="about-fieldset">
                             <legend id="connect-title">Stay Connected</legend>
-                            <p id="form-help" class="about-help-text">Share a little about yourself so I can tailor your visit.</p>
+                            <p id="form-help" class="about-help-text">Share a little about yourself so I can tailor your
+                                visit.</p>
                             <div class="about-form-group">
                                 <label class="about-label" for="name">Name</label>
                                 <input type="text" id="name" name="name" placeholder="Enter your name"
@@ -103,8 +103,8 @@
                             </div>
                             <div class="about-form-group">
                                 <label class="about-label" for="section-select">Choose a section</label>
-                                <select id="section-select" name="section" class="about-input" aria-label="Choose a section"
-                                    aria-describedby="form-help" required>
+                                <select id="section-select" name="section" class="about-input"
+                                    aria-label="Choose a section" aria-describedby="form-help" required>
                                     <option value="">Select one</option>
                                     <option value="projects">Projects</option>
                                     <option value="about">About</option>
@@ -113,7 +113,8 @@
                             <div class="about-form-group">
                                 <label class="about-label" for="interest">What are you interested in?</label>
                                 <input type="text" id="interest" name="interest" placeholder="Art, comics, tech..."
-                                    class="about-input" aria-label="Your interests" aria-describedby="form-help" required>
+                                    class="about-input" aria-label="Your interests" aria-describedby="form-help"
+                                    required>
                             </div>
                             <div class="about-actions">
                                 <button class="btn" type="button" onclick="window.location.href='projects.html'"

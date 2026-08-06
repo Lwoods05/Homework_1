@@ -294,6 +294,12 @@ main {
     margin-bottom: 0.4rem;
 }
 
+.about-help-text {
+    margin: 0 0 0.8rem;
+    color: var(--navy);
+    font-size: 0.95rem;
+}
+
 .about-form-group {
     margin-bottom: 0.8rem;
 }

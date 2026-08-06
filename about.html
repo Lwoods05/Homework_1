@@ -85,31 +85,40 @@
 
             <section class="about-grid" aria-label="Connect with me section">
                 <article class="about-card">
-                    <form class="about-form">
+                    <form class="about-form" action="#" method="post" aria-labelledby="connect-title">
                         <fieldset class="about-fieldset">
-                            <legend>Stay Connected</legend>
-                            <label class="about-label" for="view-choice">Choose where you'd like to go:</label>
+                            <legend id="connect-title">Stay Connected</legend>
+                            <p id="form-help" class="about-help-text">Share a little about yourself so I can tailor your visit.</p>
                             <div class="about-form-group">
                                 <label class="about-label" for="name">Name</label>
                                 <input type="text" id="name" name="name" placeholder="Enter your name"
-                                    class="about-input" aria-label="Your name">
+                                    class="about-input" aria-label="Your name" aria-describedby="form-help"
+                                    autocomplete="name" required>
                             </div>
                             <div class="about-form-group">
                                 <label class="about-label" for="email">Email</label>
                                 <input type="email" id="email" name="email" placeholder="Enter your email"
-                                    class="about-input" aria-label="Your email">
+                                    class="about-input" aria-label="Your email" aria-describedby="form-help"
+                                    autocomplete="email" inputmode="email" required>
+                            </div>
+                            <div class="about-form-group">
+                                <label class="about-label" for="section-select">Choose a section</label>
+                                <select id="section-select" name="section" class="about-input" aria-label="Choose a section"
+                                    aria-describedby="form-help" required>
+                                    <option value="">Select one</option>
+                                    <option value="projects">Projects</option>
+                                    <option value="about">About</option>
+                                </select>
                             </div>
                             <div class="about-form-group">
                                 <label class="about-label" for="interest">What are you interested in?</label>
                                 <input type="text" id="interest" name="interest" placeholder="Art, comics, tech..."
-                                    class="about-input" aria-label="Your interests">
+                                    class="about-input" aria-label="Your interests" aria-describedby="form-help" required>
                             </div>
-                            <p>Take a look at my creative work and inspiration.</p>
                             <div class="about-actions">
                                 <button class="btn" type="button" onclick="window.location.href='projects.html'"
                                     aria-label="View projects page">View
                                     Projects</button>
-
                             </div>
                         </fieldset>
                     </form>

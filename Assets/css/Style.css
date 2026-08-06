@@ -78,6 +78,8 @@ a {
     min-width: 90px;
     text-align: center;
     transition: transform 0.2s ease, background-color 0.2s ease;
+    font: inherit;
+    cursor: pointer;
 }
 
 .nav-box:hover,

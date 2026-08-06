@@ -292,6 +292,26 @@ main {
     margin-bottom: 0.4rem;
 }
 
+.about-form-group {
+    margin-bottom: 0.8rem;
+}
+
+.about-input {
+    width: 100%;
+    padding: 0.7rem 0.85rem;
+    border: 2px solid var(--navy);
+    border-radius: 10px;
+    font: inherit;
+    color: var(--navy);
+    background-color: var(--white);
+}
+
+.about-input:focus {
+    outline: none;
+    border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(244, 208, 63, 0.25);
+}
+
 .about-actions {
     display: flex;
     flex-wrap: wrap;

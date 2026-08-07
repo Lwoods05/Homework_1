@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500;700&display=swap');
 
 :root {
-    --navy: #001f3f;
-    --gold: #7a5b00;
-    --light: #e8f1ff;
+    --navy: #102a43;
+    --gold: #7a4300;
+    --light: #f8fbff;
     --white: #ffffff;
     --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
@@ -182,12 +182,12 @@ main {
 
 .btn:hover {
     background-color: var(--gold);
-    color: var(--navy);
+    color: var(--white);
 }
 
 .btn--secondary {
     background-color: var(--gold);
-    color: var(--navy);
+    color: var(--white);
 }
 
 .btn--secondary:hover {

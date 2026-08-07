@@ -448,3 +448,29 @@ footer {
         grid-column: auto;
     }
 }
+/* Skip Link Accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #001f3f;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    z-index: 1000;
+    border-radius: 0 0 5px 0;
+    transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: 3px solid #ffffff;
+}
+
+
+/* Keyboard Focus Accessibility */
+a:focus,
+button:focus {
+    outline: 3px solid #ffcc00;
+    outline-offset: 3px;
+}

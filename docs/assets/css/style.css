@@ -47,7 +47,8 @@ button:focus-visible,
     border-radius: 0 0 0.75rem 0;
 }
 
-.skip-link:focus {
+.skip-link:focus,
+.skip-link:focus-visible {
     left: 0;
     outline: 3px solid var(--gold);
     outline-offset: 0;

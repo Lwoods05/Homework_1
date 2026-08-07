@@ -1,4 +1,8 @@
 # LWS Creations
+publish to github
+1. Push this repository to GitHub.
+
+
 
 This static website is designed to work on GitHub Pages.
 

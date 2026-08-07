@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500;700&display=swap');
 
 :root {
-    --navy: #102a43;
-    --gold: #7a4300;
-    --light: #f8fbff;
+    --navy: #0d1b2a;
+    --gold: #5a2f00;
+    --light: #fdfefe;
     --white: #ffffff;
     --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
@@ -114,7 +114,8 @@ a {
 
 .nav-box:hover,
 .nav-box:focus-visible {
-    background-color: var(--gold);
+    background-color: var(--navy);
+    color: var(--white);
     transform: translateY(-2px);
     outline: none;
 }
@@ -150,7 +151,7 @@ main {
 
 .tagline {
     margin: 0;
-    color: var(--gold);
+    color: var(--navy);
     font-weight: 700;
     font-size: 1.05rem;
 }

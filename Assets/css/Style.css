@@ -84,12 +84,21 @@ a {
     box-shadow: var(--shadow);
 }
 
-.site-header h1 {
+.site-header .site-brand {
+    display: block;
     margin: 0 0 0.5rem;
     text-align: center;
     color: var(--white);
     font-family: 'Pacifico', cursive;
     font-size: clamp(1.8rem, 5vw, 2.4rem);
+    font-weight: 700;
+}
+
+.site-header .site-brand:hover,
+.site-header .site-brand:focus-visible {
+    color: var(--white);
+    text-decoration: underline;
+    text-underline-offset: 0.25rem;
 }
 
 .top-nav {

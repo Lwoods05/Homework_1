@@ -2,7 +2,7 @@
 
 :root {
     --navy: #001f3f;
-    --gold: #f4d03f;
+    --gold: #7a5b00;
     --light: #e8f1ff;
     --white: #ffffff;
     --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
@@ -32,8 +32,8 @@ button:focus-visible,
 .nav-box:hover,
 .nav-box:focus-visible,
 .about-input:focus {
-    outline: 2px solid var(--gold);
-    outline-offset: 2px;
+    outline: 3px solid var(--gold);
+    outline-offset: 3px;
 }
 
 .skip-link {

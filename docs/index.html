@@ -18,7 +18,7 @@
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="page">
         <header class="site-header">
-            <h1>LWS Creations</h1>
+            <h1 id="page-title">LWS Creations</h1>
             <nav class="top-nav" aria-label="Main navigation">
                 <a href="./index.html" class="nav-box" aria-current="page">Home</a>
                 <a href="./projects.html" class="nav-box">Projects</a>
@@ -26,7 +26,7 @@
             </nav>
         </header>
 
-        <main id="main-content">
+        <main id="main-content" tabindex="-1" aria-labelledby="page-title">
             <section class="hero">
                 <div class="hero-content">
                     <p class="tagline">Creative stories, coloring books, and comic ideas</p>
@@ -41,7 +41,9 @@
                     </div>
                 </div>
                 <img src="./assets/images/Lemars_Life_Story_Cover_Page.png"
-                    alt="Cover page of Lemar's Life Story coloring book">
+                    alt="Cover image for Lemar's Life Story coloring book"
+                    loading="lazy"
+                    decoding="async">
             </section>
 
             <section class="content-grid">
